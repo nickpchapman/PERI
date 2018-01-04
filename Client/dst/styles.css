@@ -34,17 +34,11 @@
 div.card-content {
   padding-top: 10px;
   padding-left: 0px;
-  padding-bottom: 0px;
 }
 
 div.subtitle.is-6 {
   margin: 0 auto;
 }
-
-/*.title:not(.is-spaced) + .subtitle {
-    margin-top: -1.5rem;
-    margin-bottom: 0 auto;
-}*/
 
 .subtitle:not(.is-spaced) + .title {
     margin: 0 auto;
@@ -139,28 +133,12 @@ ul.ais-Pagination__root {
 }
 
 div.card.trip-card.card-height {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: none;
 }
 
-div.card {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color: none;
-  padding-bottom: 10px;
-}
-
-p.title.is-4 {
-  margin: 0 auto;
-  margin-bottom: 7%
-}
-
-p.subtitle.is-6 {
-  margin: 0 auto;
-  margin-bottom: 2%;
-}
-/*=====Post a Trip=====*/
+/*===== Post a Trip =====*/
 
 .uploadImage {
   background-color: grey;
@@ -179,7 +157,7 @@ p.subtitle.is-6 {
   margin-top: 20%;
 }
 
-/*=====Build Spot====*/
+/*===== Plan Trip ====*/
 
 .uploadSpotImage {
   margin: 10px;
