@@ -1,7 +1,7 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import axios from 'axios';
 import Sticky from 'react-sticky-el';
-import { connect } from 'react-redux';
 import SpotMap from './spotMap.jsx';
 import { addSpotToCart } from '../actions/cart.js';
 

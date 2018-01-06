@@ -160,7 +160,7 @@ p.subtitle.is-6 {
   margin: 0 auto;
   margin-bottom: 2%;
 }
-/*=====Post a Trip=====*/
+/*===== Post a Trip =====*/
 
 .uploadImage {
   background-color: grey;
@@ -179,7 +179,7 @@ p.subtitle.is-6 {
   margin-top: 20%;
 }
 
-/*=====Build Spot====*/
+/*===== Build Spot ====*/
 
 .uploadSpotImage {
   margin: 10px;
@@ -190,7 +190,6 @@ p.subtitle.is-6 {
   margin: 10px;
 }
 
-
 /*===== Nav =====*/
 
 .invite-pop-up {
@@ -200,7 +199,6 @@ p.subtitle.is-6 {
 .nav-pos-1 {
   position: fixed;
 }
-
 
 /*===== Post Trip =====*/
 

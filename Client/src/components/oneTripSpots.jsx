@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-
 class OneTripSpots extends React.Component {
   constructor(props) {
     super(props);
@@ -14,7 +13,6 @@ class OneTripSpots extends React.Component {
   parseHashtag (hashtag) {
     let hidden = {color: 'white'};
     let parsedTag = <div style={hidden}>#</div>;
-
     if (hashtag) {
       parsedTag = hashtag.split(' ').map((hash, i) => {
         if (hash[hash.length - 1] === ',') {
@@ -28,15 +26,12 @@ class OneTripSpots extends React.Component {
 
   render() {
     const trip = this.props.trip;
-
     let numSpots;
-
     if (trip.spots.length === 1) {
       numSpots = 'spot';
     } else {
       numSpots = 'spots';
     }
-
     return (
       <div className="col-sm-3">
         <div className="card trip-card card-height">

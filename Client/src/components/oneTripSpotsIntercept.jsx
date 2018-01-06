@@ -1,7 +1,6 @@
 import React from 'react';
 import OneTripSpots from './oneTripSpots.jsx';
 
-
 let OneTripSpotsIntercept = ({trip}) => (
   <div className="row">
     {trip.map((tripObj, i) => {
@@ -15,3 +14,4 @@ let OneTripSpotsIntercept = ({trip}) => (
 );
 
 export default OneTripSpotsIntercept;
+
