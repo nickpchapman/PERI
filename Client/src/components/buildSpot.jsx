@@ -40,6 +40,7 @@ class BuildSpot extends React.Component {
     //degrees, minutes, seconds ["79", "deg", "34'", "15.49"", "W"]
     //North and East are positive, South and West are negative
     //if last element of array is South or West, multiple by -1
+    console.log('input location', loc)
     let location = loc.split(' ');
     let direction = location[4];
     let degrees = Number.parseFloat(location[0]);
