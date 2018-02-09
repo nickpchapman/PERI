@@ -44,7 +44,10 @@
 4. In the .env file also include: LOCAL_GOOGLE_REDIRECT=http://localhost:3000/auth/google/callback
 
 # SETTING UP TRAVIS CI #
-NICK CAN FILL THIS OUT
+1. Sign up at travis-ci.org
+2. .travis.yml is pre-configured
+3. Travis will run automatially once a pull request is made.
+4. Allow 20 for Travis to load before merging a PR. Travis will take 3-5 mins to run.
 
 
 # HELPFUL RESOURCES #
